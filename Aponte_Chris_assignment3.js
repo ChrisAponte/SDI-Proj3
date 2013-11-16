@@ -80,6 +80,17 @@ var findCabStand = function(cab, area) {
 
 cabStandArea = findCabStand();
 
+// array function
+var specificCabStand = function(json) {
+    
+    for (var i=0; i<json.length; i++) {
+        var checkerStands = cabStands.downtownDisney[i];
+        console.log("Downtown Disney cab stands: " + checkerStands.names + ", maximum cabs allowed: " + checkerStands.maxCabs);
+    } 
+};//end array function
+
+specificCabStand(cabStands);
+
 // Return Values
 
 // Boolean

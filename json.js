@@ -1,22 +1,42 @@
 var cabStands = {
     
-    "downtown Disney" : [
+    "downtownDisney" : [
         
         {
-            "Pleasure Island" : 5,
-            "Cirque Du Soleil" : 6,
-            "Planet Hollywood" : 4,
-            "Marketplace" : 7
+            "maxCabs" : 5,
+            "name" : "Pleasure Island"
+        },
+        {
+            "maxCabs" : 6,
+            "name" : "Cirque Du Soleil"
+        },
+        {
+            "maxCabs" : 4,
+            "name" : "Planet Hollywood"
+        },
+        {
+            "maxCabs" : 7,
+            "name" : "Marketplace"
         }
     ],
     
-    "Theme parks" : [
+    "ThemeParks" : [
         
         {
-            "Epcot Center" : 30,
-            "Magic Kingdom" : 25,
-            "Holywood Studios" : 20,
-            "Animal Kingdom" : 15
+            "maxCabs" : 30,
+            "name" : "Epcot Center"
+        },
+        {
+            "maxCabs" : 25,
+            "name" : "Magic Kingdom"
+        },
+        {
+            "maxCabs" : 20,
+            "name" : "Hollywood Studios"
+        },
+        {
+            "maxCabs" : 15,
+            "name" : "Animal Kingdom"
         }
     ]
 }
